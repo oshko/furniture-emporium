@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(#effcf3, #f8fafe);
+  margin: 0;
+}
+
+header {
+  margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  margin: 20px;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: beige;
+  border-radius: 10px;
+  border: 1px solid rgba(200, 200, 200, 0.3);
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgb(110, 203, 110);
+}
+button:hover {
+  background: rgba(0, 255, 4, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+p {
+  color: rgb(73, 72, 72);
+}
+
+article > h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #048038;
+}
+
+.price {
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+  font-weight: bolder;
+}
+
+.price > s {
+  color: gray;
+  font-size: medium;
+}
